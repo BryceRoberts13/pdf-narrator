@@ -1,0 +1,14 @@
+node_modules/
+.next/
+dist/
+build/
+.env
+.env.*
+!.env.example
+*.mp3
+*.wav
+*.ogg
+.DS_Store
+__pycache__/
+.venv/
+venv/
