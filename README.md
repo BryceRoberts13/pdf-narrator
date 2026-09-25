@@ -1,15 +1,20 @@
 # pdf-narrator
 
-Web app that turns a PDF into spoken audio with a good, swappable voice.
-
-## Planned features
-
-- Upload / open a PDF and view it in the browser
-- Generate an audio narration of the document text
-- Choose among high-quality voices
-- Highlight the PDF region currently being read
-- Playback speed via mpv-style keys (`[` / `]` to slow down / speed up)
+Chrome extension that narrates academic PDFs with synced highlighting, chapter skip, and equation pause/skip.
 
 ## Status
 
-Design in progress — implementation not started yet.
+Design approved — see [docs/superpowers/specs/2026-09-24-pdf-narrator-design.md](docs/superpowers/specs/2026-09-24-pdf-narrator-design.md).
+
+## Planned (v1)
+
+- Side panel PDF.js viewer (not Chrome’s built-in PDF viewer)
+- Ordered text extraction + section outline
+- Web Speech narration with highlight sync and `[` / `]` speed
+- Equations: auto-pause, symbol key, skip on resume
+
+## Later
+
+- HTML page narration
+- Local high-quality voices (Piper/Kokoro)
+- Own-voice clone exploration
